@@ -5,6 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bharat Mail</title>
+
+    <!-- Tailwind CDN (OK for demo projects) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -15,33 +17,28 @@
               'bharat-orange': '#FF9933',
               'bharat-blue': '#1a73e8',
               'bharat-green': '#138808',
-              'navy': '#001f3f',
+              navy: '#001f3f',
               'light-gray': '#f1f3f4',
               'medium-gray': '#dadce0',
               'dark-gray': '#5f6368',
             },
             fontFamily: {
-              sans: ['"Inter"', 'sans-serif'],
-            }
-          }
-        }
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
       }
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script type="importmap">
-{
-  "imports": {
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.19.0",
-    "react/": "https://aistudiocdn.com/react@^19.1.1/",
-    "react": "https://aistudiocdn.com/react@^19.1.1",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
