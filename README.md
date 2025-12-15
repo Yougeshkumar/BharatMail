@@ -33,8 +33,11 @@ The project demonstrates frontend engineering, cloud deployment, and production-
 ---
 
 ## 🧱 Project Structure
+## 🧱 Project Structure
+
+```bash
 bharat-mail/
-│── components/
+├── components/
 │   ├── ComposeModal.tsx
 │   ├── EmailList.tsx
 │   ├── EmailListItem.tsx
@@ -43,17 +46,18 @@ bharat-mail/
 │   ├── Onboarding.tsx
 │   └── Sidebar.tsx
 │
-│── services/
+├── services/
 │   ├── emailService.ts
 │   └── geminiService.ts
 │
-│── App.tsx
-│── index.html
-│── index.tsx
-│── vite.config.ts
-│── package.json
-│── README.md
----
+├── App.tsx
+├── index.tsx
+├── index.html
+├── vite.config.ts
+├── package.json
+└── README.md
+```
+
 
 
 ## ⚙️ Local Setup
